@@ -1,3 +1,5 @@
+var request = require('request-promise-native'); // si vous souhaitez faire des requêtes HTTP
+
 /**
  * on crée une fonction `AssistantTemplate`
  * @param {Object} configuration L'objet `configuration` qui vient du fichier configuration.json
