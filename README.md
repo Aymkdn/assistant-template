@@ -2,6 +2,10 @@
 
 Dans le fichier `template.js` on retrouve la structure minimale à utiliser pour créer un autre plugin.
 
+## Créer son plugin
+
+Suivre les explications données sur le wiki : https://github.com/Aymkdn/assistant-template/wiki
+
 ## Configuration
 
 Si vous avez besoin de configuration, elle doit être stockée dans le fichier `configuration.json`.
