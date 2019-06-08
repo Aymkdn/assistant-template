@@ -31,6 +31,9 @@ AssistantTemplate.prototype.init = function(plugins) {
 AssistantTemplate.prototype.action = function(commande) {
   // faire quelque chose avec `commande`
   // votre code sera ici principalement
+
+  // on peut également appeler d'autres plugins, par exemple `notifier`
+  // if (this.plugins.notifier) this.plugins.notifier.action("Message à lire sur le Google Home");
 };
 
 /**
